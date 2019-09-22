@@ -11,6 +11,7 @@ font-family: 'Permanent Marker', cursive;
 .title-name{
   font-size: 3rem;
   font-family: 'Shadows Into Light', cursive;
+  font-weight: 900;
   margin-right: 1rem;
   color:var(--mainBlack);
 }
@@ -149,6 +150,10 @@ font-family: 'Permanent Marker', cursive;
     margin-left:10rem;
   }
 
+  .images{
+    text-align: center;
+  }
+
   .nav-icon {
     font-size: 1.5rem;
   }
@@ -163,7 +168,7 @@ font-family: 'Permanent Marker', cursive;
   }
   .hero-banner {
     min-height: calc(100vh - 120px);
-    background: rgb(139, 138, 138);
+    background: rgb(65, 4, 4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,7 +183,7 @@ font-family: 'Permanent Marker', cursive;
   }
   .banner-service {
     text-align: center;
-    background:rgba(59, 56, 50, 0.8);
+    background:rgba(28, 71, 18, 0.8);
     display: inline-block;
     padding: 2rem;
   }
@@ -267,6 +272,23 @@ font-family: 'Permanent Marker', cursive;
     position: relative;
     overflow: hidden;
   }
+
+  .img-info{
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  .img-price{
+    width:700px;
+    height: 500px;
+  }
+
+  .price{
+    text-align: center;
+    margin: 100px auto 50px;
+    width: 700px;
+    height: 500px;
+    
+  }
  
   .product-img {
     display: block;
@@ -336,6 +358,10 @@ a.icons:hover{
 .title-name-small{
   display: none;
   
+}
+
+#map{
+  margin:auto;
 }
 
 
