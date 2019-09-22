@@ -183,9 +183,10 @@ font-family: 'Permanent Marker', cursive;
   }
   .banner-service {
     text-align: center;
-    background:rgba(28, 71, 18, 0.8);
+    background:url("../img/rasta.jpg") center/cover no-repeat;
     display: inline-block;
     padding: 2rem;
+    opacity: 0.7;
   }
   .banner-title {
     font-size: 3.4rem;
