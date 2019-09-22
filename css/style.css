@@ -23,6 +23,7 @@ font-family: 'Permanent Marker', cursive;
     --mainSpacing: 0.5rem;
     --mainTransition: all 0.3s linear;
   }
+
   * {
     margin: 0;
     padding: 0;
@@ -97,6 +98,7 @@ font-family: 'Permanent Marker', cursive;
   }
 
   .side-nav{
+    font-family: 'Shadows Into Light', cursive;
     height:100%;
     width: 0;
     position: fixed;
@@ -401,5 +403,25 @@ a.icons:hover{
     .donthemon{
       width:50%;
       height: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) and (orientation : landscape){
+    .nav-icon {
+      margin-right: 20rem;
+  }
+    .navbar-center{
+      padding: 0 .5rem;
+    }
+    .img-container{
+      width: 300px;
+      height: 300px;
+      margin:auto;
+    }
+    .sectionid{
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+      align-items: center;
+     
     }
   }
