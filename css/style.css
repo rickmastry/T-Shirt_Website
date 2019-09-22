@@ -342,6 +342,9 @@ a.icons:hover{
  
   /* --------------- End of Cart ---------------- */
   @media screen and (max-width: 768px){
+    .navbar-center{
+      padding: 0 .5rem;
+    }
     .img-container{
       width: 300px;
       height: 300px;
@@ -374,7 +377,7 @@ a.icons:hover{
      
   }
     .nav-icon {
-      margin-right: 6rem;
+      margin-right: 3rem;
   }
     .sectionid{
       grid-template-columns: 1fr;
