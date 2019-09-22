@@ -372,15 +372,29 @@ a.icons:hover{
   
   }
  
-  /* --------------- End of Cart ---------------- */
   @media screen and (max-width: 768px){
+    .images{
+      margin: 0 auto;
+    }
+    .price{
+      width:300px;
+      height: 200px;
+    }
+    .image-container{
+      
+      width:300px;
+      height: 200px;
+    }
+    .img-price{
+      width:300px;
+      height: 200px;
+    }
     .navbar-center{
       padding: 0 .5rem;
     }
     .img-container{
       width: 300px;
       height: 300px;
-      margin:auto;
     }
     .banner-service {
       margin-right:1rem;
@@ -437,6 +451,9 @@ a.icons:hover{
   }
 
   @media only screen and (max-width: 768px) and (orientation : landscape){
+    .images{
+      margin: 0 auto;
+    }
     .nav-icon {
       margin-right: 20rem;
   }
@@ -444,14 +461,15 @@ a.icons:hover{
       padding: 0 .5rem;
     }
     .img-container{
-      width: 300px;
-      height: 300px;
-      margin:auto;
+      width: 250px;
+      height: 250px;
+    
     }
     .sectionid{
       grid-template-columns: repeat(2, 1fr);
       text-align: center;
       align-items: center;
+    
      
     }
   }
