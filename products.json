@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 21.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "../img/4640.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Rasta T-Shirt",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "img/4640.jpg" } } }
+      }
+    }
+  ]
+}

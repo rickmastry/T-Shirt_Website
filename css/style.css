@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Permanent+Marker|Shadows+Into+Light&display=swap');
+/*   
+font-family: 'Mansalva', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+
+
+*/
+
+.title-name{
+  font-size: 3rem;
+  font-family: 'Shadows Into Light', cursive;
+  margin-right: 1rem;
+  color:var(--mainBlack);
+}
+
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.5rem;
+    --mainTransition: all 0.3s linear;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none !important;
+    color: black;
+  }
+  a:hover{
+    text-decoration: none !important;
+    color:var(--mainWhite);
+  }
+  body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Lato", sans-serif;
+  }
+
+  html { 
+    scroll-behavior: smooth; 
+  } 
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(231, 226, 221);
+    z-index: 1;
+  }
+  .navbar-center {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
+  .nav-icons {
+    font-size: 1.5rem;
+  }
+
+  .nav-icon {
+      display:none !important;
+  }
+
+  .fas.fa-bars {
+   display:none !important;
+  }
+
+  .navbar-nav{
+   flex-direction:row !important;
+  }
+
+  .navigation{
+      margin-left:0 !important;
+      text-decoration:none !important;
+      color: var(--mainBlack) !important;
+      font-size: 1.5rem;
+      padding: .5rem .5rem;
+      cursor: pointer;
+      font-family: 'Shadows Into Light', cursive;
+}
+
+  .navigation:hover {
+    color: var(--primaryColor) !important;
+    transition: var(--mainTransition);
+  }
+
+  .side-nav{
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top:0;
+    left:0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition:0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: var(--mainWhite) !important;;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top:0;
+    right: 22px;
+    font-size:36px;
+    margin-left:50px;
+}
+
+  /*.logo{
+    margin-right: 10rem;
+    height:25%;
+    width:25%;
+  }*/
+  .logo-small{
+   
+    height:12.5%;
+    width:12.5%;
+  }
+
+  .img-logo{
+    margin-left:10rem;
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+ 
+
+  .hero {
+    min-height: calc(100vh - 120px);
+    background: url("../img/house5.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-banner {
+    min-height: calc(100vh - 120px);
+    background: rgb(139, 138, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    text-align: center;
+    background:rgb(245,222,179, 0.8);
+    display: inline-block;
+    padding: 2rem;
+  }
+  .banner-service {
+    text-align: center;
+    background:rgba(59, 56, 50, 0.8);
+    display: inline-block;
+    padding: 2rem;
+  }
+  .banner-title {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 3rem;
+  }
+  .banner-title-service {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin:auto;
+  }
+  .banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+  }
+  .banner-btn:hover {
+    background: transparent;
+    color: var(--primaryColor);
+  }
+
+  .quote-container{
+    margin-top: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .quote{
+    text-align:center;
+    font-size: 2rem;
+    margin:auto;
+  }
+
+  article{
+     padding: 4rem 0;
+  }
+
+  .sectionid{
+    font-family: 'Shadows Into Light', cursive;
+    width: 90vw;
+    margin: 100px auto 0;
+    max-width: 1170px;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+  }
+
+  /* --------------- End of Hero ---------------- */
+/* --------------- Products ---------------- */
+
+.products {
+    padding: 4rem 0;
+  }
+  .section-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .products-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+  }
+  .img-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .product-img {
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+    transition: var(--mainTransition);
+  }
+  .img-container:hover .product-img {
+    opacity: 0.5;
+  }
+  
+  .product h3 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+  }
+  
+  .product h4 {
+    margin-top: 0.7rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+  }
+
+ 
+footer{
+    margin:0;
+    background-color: #222;
+    color:var(--mainWhite);
+    height: 300px;
+}
+
+.copyright{
+ color: var(--mainWhite);
+ text-align:center;
+}
+
+.social-icons{
+   margin-top:100px;
+   padding:0;
+   text-align:center;
+}
+
+li.color{
+    margin-top:100px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5rem;
+   
+}
+
+a.icons{
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
+
+a.icons:hover{
+    color:#911A20;
+}
+
+.item-amount{
+    margin:0;
+}
+
+
+  @media screen and (min-width: 768px) {
+   
+
+  
+  }
+ 
+  /* --------------- End of Cart ---------------- */
+  @media screen and (max-width: 768px){
+    .nav-icon {
+      margin-right: 2rem;
+  }
+    .full-cart{
+      margin-left: -8rem;
+  }
+    .logo{
+        height:75%;
+        width:75%;
+    }
+    .nav-icon {
+        display:block !important;
+        font-size: 1.5rem;
+      }
+    .fas.fa-bars {
+        display:block !important;
+        cursor: pointer;
+       }
+       .navigation{
+        display: none !important;
+       
+    }
+  }
