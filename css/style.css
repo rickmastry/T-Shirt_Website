@@ -343,6 +343,8 @@ a.icons:hover{
   /* --------------- End of Cart ---------------- */
   @media screen and (max-width: 768px){
     .img-container{
+      width: 300px;
+      height: 300px;
       margin:auto;
     }
     .banner-service {
