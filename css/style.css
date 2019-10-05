@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url('https://fonts.googleapis.com/css?family=Mansalva|Permanent+Marker|Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
 /*   
 font-family: 'Mansalva', cursive;
 font-family: 'Shadows Into Light', cursive;
@@ -37,8 +38,9 @@ font-family: 'Permanent Marker', cursive;
   }
   a:hover{
     text-decoration: none !important;
-    color:var(--mainWhite);
+    color:var(--mainPrimary);
   }
+  
   body {
     color: var(--mainBlack);
     background: var(--mainWhite);
@@ -168,10 +170,15 @@ font-family: 'Permanent Marker', cursive;
   }
   .hero-banner {
     min-height: calc(100vh - 120px);
-    background: rgb(65, 4, 4);
+    background: rgb(112, 9, 9);
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .donthemon{
+    margin-top:100px;
+    margin-bottom: 100px;
   }
   .banner {
     text-align: center;
@@ -222,18 +229,49 @@ font-family: 'Permanent Marker', cursive;
     text-align: center;
     justify-content: center;
   }
+  .bio{
+    margin-top: 100px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    justify-content: center;
+  }
 
-  .quote{
+  .bio-about{
     text-align:center;
     font-size: 2rem;
     margin:auto;
   }
+
+  .quote{
+    text-align:center;
+    font-size: 1.25rem;
+    margin:auto;
+    background: -webkit-linear-gradient(45deg, rgb(255, 81, 0, 1) 30%, rgba(0,128,0,1) 50%, rgba(255,255,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*background: linear-gradient(to right, green, gold, gold, red);*/
+  }
+ 
 
   article{
      padding: 4rem 0;
   }
 
   .sectionid{
+    font-family: 'Shadows Into Light', cursive;
+    width: 90vw;
+    margin: 400px auto 0;
+    max-width: 1170px;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+  }
+  .sectionid-contact{
     font-family: 'Shadows Into Light', cursive;
     width: 90vw;
     margin: 100px auto 0;
@@ -277,16 +315,30 @@ font-family: 'Permanent Marker', cursive;
   .img-info{
     font-family: 'Shadows Into Light', cursive;
   }
+  .contact-info{
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  .email-info{
+    text-decoration: none !important;
+    color:var(--mainBlack);
+  }
+ 
+  .email-info:hover{
+    color:var(--primaryColor) !important;
+  }
 
   .img-price{
     width:700px;
-    height: 500px;
+    height: 700px;
   }
 
   .price{
     text-align: center;
-    margin: 100px auto 50px;
-    width: 700px;
+    margin-top: 100px;
+    margin-bottom:100px;
+  
     height: 500px;
     
   }
@@ -365,6 +417,58 @@ a.icons:hover{
   margin:auto;
 }
 
+table {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  font-weight:900;
+  width: 700px;
+  border-collapse: collapse;
+  /*border: 3px solid rgb(68, 92, 75);*/
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:100px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+table th {
+  text-transform: uppercase;
+  text-align: center;
+  background: #2668a6;
+  color: #FFF;
+  padding: 20px;
+  min-width: 30px;
+  border-right: 2px solid #7D82A8;
+  font-family: 'Dancing Script', cursive;
+}
+
+table th.cell-one{
+  border-top-left-radius: 10px;
+}
+table th.cell-six{
+  border-right: none !important;
+}
+
+table td {
+  text-align: center;
+  padding: 21px;
+  border-right: 2px solid #7D82A8;
+  border-bottom: 2px solid #7D82A8;
+  
+}
+
+
+table td:last-child {
+  border-right: none;
+}
+
+table tbody tr{
+  background: #2688a6;
+}
+table tbody tr:nth-child(2n) td {
+  background: rgb(132, 196, 204);
+}
+
 
   @media screen and (min-width: 768px) {
    
@@ -373,17 +477,36 @@ a.icons:hover{
   }
  
   @media screen and (max-width: 768px){
+    .bio-about{
+      text-align:center;
+      font-size: 1.25rem;
+      margin:auto;
+    }
     .images{
       margin: 0 auto;
     }
-    .price{
-      width:300px;
-      height: 200px;
+ 
+    table {
+     margin:auto;
+      font-size: 8px;
+      font-weight:600;
+      width: 175px;
+      height:500px;
+  
     }
-    .image-container{
+
+    table td {
+    
+      padding: 5.5px;
+    
       
-      width:300px;
-      height: 200px;
+    }
+    
+    .image-container{
+      margin-left:auto;
+      margin-right:auto;
+      overflow-x:auto
+    
     }
     .img-price{
       width:300px;
@@ -438,8 +561,9 @@ a.icons:hover{
 
     .title-name-small{
       display: inline-block;
-      font-size: 1.5rem;
+      font-size: 1.60rem;
       font-family: 'Shadows Into Light', cursive;
+      font-weight: 600;
       margin-right: 1rem;
       color:var(--mainBlack);
     }
@@ -472,4 +596,26 @@ a.icons:hover{
     
      
     }
+
+    table {
+      margin:auto;
+       font-size: 8px;
+       font-weight:900;
+       width: 350px;
+   
+     }
+ 
+     table td {
+     
+       padding: 11px;
+     
+       
+     }
+     
+     .image-container{
+       margin-left:auto;
+       margin-right:auto;
+     
+     }
+    
   }
