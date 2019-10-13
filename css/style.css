@@ -179,11 +179,12 @@ font-family: 'Permanent Marker', cursive;
   }
 
   .banner {
-    width:1000px;
-    height: 500px;
+    width:750px;
+    height: 275px;
     text-align: center;
     display: inline-block;
     padding: 2rem;
+    background: rgb(0,0,0, 0.6);
   }
 
   .donthemon{
