@@ -583,6 +583,11 @@ table tbody tr:nth-child(2n) td {
   }
 
   @media only screen and (max-width: 768px) and (orientation : landscape){
+
+    .banner{
+       height:200px;
+       margin:10px;
+    }
     .images{
       margin: 0 auto;
     }
