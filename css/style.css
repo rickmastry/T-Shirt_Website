@@ -280,11 +280,14 @@ font-family: 'Permanent Marker', cursive;
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
   }
+
   .img-container {
+    display:flex;
     width: 400px;
-    height: 400px;
+    height: 325px;
     position: relative;
     overflow: hidden;
+    border:3px solid rgb(39, 9, 9);
   }
 
   .img-info{
@@ -476,6 +479,7 @@ table tbody tr:nth-child(2n) td {
       margin:auto;
     }
     .images{
+      display: flex;
       margin: 0 auto;
     }
  
