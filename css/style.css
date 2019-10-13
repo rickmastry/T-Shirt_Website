@@ -466,6 +466,7 @@ table tbody tr:nth-child(2n) td {
     }
   
     .logo{
+      margin:3rem;
       width:75%;
       height:50%;
     }
