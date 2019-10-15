@@ -557,7 +557,7 @@ table tbody tr:nth-child(2n) td {
      display:none;
     }
     .nav-icon {
-      margin-right: 3rem;
+      margin-right: 9rem;
       display:block !important;
       font-size: 1.5rem;
       cursor:pointer;
