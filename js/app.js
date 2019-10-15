@@ -12,7 +12,7 @@ var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
 center: [-77.899680, 34.034980],
-zoom: 11.15
+zoom: 13.15
 });
 map.on('load', function () {
 // Add a layer showing the places.
