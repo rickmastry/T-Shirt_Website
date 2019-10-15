@@ -11,7 +11,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamFocmlrIiwiYSI6ImNrMDM3dGhzaDBjZ3gzaG54OTR2c
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [-77.8868, 34.2104],
+center: [-77.899680, 34.034980],
 zoom: 11.15
 });
 map.on('load', function () {
@@ -31,7 +31,7 @@ map.addLayer({
 },
 "geometry": {
 "type": "Point",
-"coordinates": [-77.8868, 34.2104]
+"coordinates": [-77.899680, 34.034980]
 }
 }]
 }

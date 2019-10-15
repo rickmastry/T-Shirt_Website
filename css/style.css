@@ -24,7 +24,7 @@ font-family: 'Permanent Marker', cursive;
     --mainGrey: #ececec;
     --mainSpacing: 0.5rem;
     --mainTransition: all 0.3s linear;
-    --mainRed: rgb(110, 53, 53);
+    --mainRed: rgb(139, 55, 55);
   }
 
   * {
@@ -95,11 +95,12 @@ font-family: 'Permanent Marker', cursive;
       padding: .5rem .5rem;
       cursor: pointer;
       font-family: 'Shadows Into Light', cursive;
+      transition: var(--mainTransition);
 }
 
   .navigation:hover {
     color: var(--primaryColor) !important;
-    transition: var(--mainTransition);
+    
   }
 
   .side-nav{
@@ -171,7 +172,7 @@ font-family: 'Permanent Marker', cursive;
   }
   .hero-banner {
     min-height: calc(100vh - 120px);
-    background: rgb(102, 9, 9);
+    background: rgb(63, 9, 9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,9 +302,21 @@ font-family: 'Permanent Marker', cursive;
   .email-info{
     text-decoration: none !important;
     color:var(--mainBlack);
+    transition: var(--mainTransition);
+    font-weight: 600;
   }
  
   .email-info:hover{
+    color:var(--primaryColor) !important;
+  }
+  #email-info{
+    text-decoration: none !important;
+    color:var(--mainBlack);
+    transition: var(--mainTransition);
+    font-weight: 600;
+  }
+ 
+  #email-info:hover{
     color:var(--primaryColor) !important;
   }
 
@@ -531,20 +544,20 @@ table tbody tr:nth-child(2n) td {
      display:none;
     }
     .nav-icon {
+      margin-right: 3rem;
       display:block !important;
       font-size: 1.5rem;
+      cursor:pointer;
     }
   .fas.fa-bars {
       display:block !important;
-      cursor: pointer;
+      cursor: pointer !important;
      }
      .navigation{
       display: none !important;
      
   }
-    .nav-icon {
-      margin-right: 3rem;
-  }
+   
     .sectionid{
       grid-template-columns: 1fr;
       text-align: center;
