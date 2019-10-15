@@ -9,6 +9,11 @@ font-family: 'Permanent Marker', cursive;
 
 */
 
+#map{
+  width: 700px;
+   height: 500px;
+}
+
 .title-name{
   font-size: 3rem;
   font-family: 'Shadows Into Light', cursive;
@@ -51,6 +56,7 @@ font-family: 'Permanent Marker', cursive;
   }
   
   body {
+    width:100%;
     color: var(--mainBlack);
     background: var(--mainRed);
     font-family: "Lato", sans-serif;
@@ -317,11 +323,12 @@ font-family: 'Permanent Marker', cursive;
   .email-info:hover{
     color:var(--primaryColor) !important;
   }
+  
   #email-info{
     text-decoration: none !important;
     color:var(--mainBlack);
     transition: var(--mainTransition);
-    font-weight: 600;
+    font-weight: bold;
   }
  
   #email-info:hover{
@@ -472,14 +479,12 @@ table tbody tr:nth-child(2n) td {
   background: rgb(132, 196, 204);
 }
 
-
-  @media screen and (min-width: 768px) {
-   
-
-  
-  }
  
   @media screen and (max-width: 768px){
+    #map{
+      width: 350px;
+       height: 250px;
+    }
     .banner {
       margin-bottom: 120px;
       width:500px;
@@ -552,7 +557,7 @@ table tbody tr:nth-child(2n) td {
      display:none;
     }
     .nav-icon {
-      margin-right: 10rem;
+      margin-right: 3rem;
       display:block !important;
       font-size: 1.5rem;
       cursor:pointer;
@@ -605,9 +610,15 @@ table tbody tr:nth-child(2n) td {
       width:50%;
       height: 50%;
     }
+    .email-info{
+      font-size:1.25rem;
+    }
+    #email-info{
+      font-size:1.25rem;
+    }
   }
 
-  @media only screen and (max-width: 768px) and (orientation : landscape){
+  @media only screen and (max-width: 668px) and (orientation : landscape){
 
     .banner{
        height:200px;
@@ -657,10 +668,11 @@ table tbody tr:nth-child(2n) td {
      }
 
      .title-name-landscape{
-        display:inline-block;
-        font-size: 2rem;
+       display:inline-block;
+       font-size: 2rem;
         font-family: 'Shadows Into Light', cursive;
         font-weight: 700;
+        
         color:var(--mainBlack);
       
      }
