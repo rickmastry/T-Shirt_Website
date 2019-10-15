@@ -17,6 +17,14 @@ font-family: 'Permanent Marker', cursive;
   color:var(--mainBlack);
 }
 
+.title-name-landscape{
+  display: none;
+}
+
+.headline{
+  margin-left:20px;
+}
+
 :root {
     --primaryColor: #f09d51;
     --mainWhite: #fff;
@@ -544,7 +552,7 @@ table tbody tr:nth-child(2n) td {
      display:none;
     }
     .nav-icon {
-      margin-right: 3rem;
+      margin-right: 10rem;
       display:block !important;
       font-size: 1.5rem;
       cursor:pointer;
@@ -647,5 +655,22 @@ table tbody tr:nth-child(2n) td {
        margin-right:auto;
      
      }
+
+     .title-name-landscape{
+        display:inline-block;
+        font-size: 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: 700;
+        color:var(--mainBlack);
+      
+     }
+
+     .title-name-small{
+      display: none;
+    }
+    .title-name-small-last{
+     
+      display: none;
+    }
     
   }
