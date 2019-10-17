@@ -799,6 +799,15 @@ table tbody tr:nth-child(2n) td {
     }
 
   @media screen and (max-width: 380px) and (orientation : portrait){
+    article{
+      padding: 1rem 0;
+   }
+
+   .img-container {
+    width: 200px;
+    height: 200px;
+}
+ 
   
     #map{
       width: 250px;
